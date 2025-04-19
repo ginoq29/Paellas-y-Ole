@@ -1,0 +1,22 @@
+[
+  {
+    "fecha": "01/05/2025",
+    "almuerzo": "reservado",
+    "cena": "disponible"
+  },
+  {
+    "fecha": "02/05/2025",
+    "almuerzo": "disponible",
+    "cena": "pendiente"
+  },
+  {
+    "fecha": "03/05/2025",
+    "almuerzo": "reservado",
+    "cena": "reservado"
+  },
+  {
+    "fecha": "04/05/2025",
+    "almuerzo": "disponible",
+    "cena": "disponible"
+  }
+]
