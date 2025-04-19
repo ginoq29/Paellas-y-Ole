@@ -33,7 +33,7 @@ export default function ChefSection() {
           <motion.img
             src={chefImage}
             alt="Chef Gino"
-            className="w-full md:w-1/2 rounded-lg shadow-lg object-cover"
+            className="w-full md:w-[300px] rounded-lg shadow-lg object-cover"
             variants={itemVariants}
           />
           <motion.div className="md:w-1/2 text-[#4a3728]" variants={itemVariants}>
@@ -45,9 +45,9 @@ export default function ChefSection() {
             </p>
             <p className="mb-4">
               Desde su regreso al Perú, lleva a cada evento la experiencia de compartir una paella como se vive en una mesa mediterránea: sin artificios, con respeto por el producto y la pasión de quien cocina para unir, no solo para alimentar. Su misión es clara: brindar un servicio impecable que conecte culturas, despierte recuerdos y transforme cada reunión en un momento inolvidable.
- </p>
+            </p>
             <p className="mb-4">
-Porque una buena paella no se come solo… se comparte.
+              Porque una buena paella no se come solo… se comparte.
             </p>
           </motion.div>
         </motion.div>
