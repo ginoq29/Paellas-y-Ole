@@ -59,7 +59,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Atención al cliente</h4>
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeHQ-Oi6dP9eG6B5I6OOMnJSo-aShufdz5QSIsFvI7B_wJCHw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-[#f8b400] text-[#4a3728] font-bold px-4 py-2 rounded hover:bg-yellow-400 text-sm"
             >
               Libro de Reclamaciones
