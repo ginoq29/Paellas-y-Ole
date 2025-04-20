@@ -7,7 +7,7 @@ export default function CalendarSection() {
         </h2>
         <div className="flex justify-center">
           <iframe
-            src="https://calendar.google.com/calendar/embed?src=cc500dd9a8c083c1aea0cb161c7c0e8dbf0c94542cf71611269f12a4e1964bf0%40group.calendar.google.com&src=ce7579f572dd182dc9a00649163fe014b3e852357bc580354bb8c770e9eb49d7%40group.calendar.google.com&ctz=America%2FLima"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLima&src=cc500dd9a8c083c1aea0cb161c7c0e8dbf0c94542cf71611269f12a4e1964bf0%40group.calendar.google.com&color=%2334A853&src=ce7579f572dd182dc9a00649163fe014b3e852357bc580354bb8c770e9eb49d7%40group.calendar.google.com&color=%23FBBC05"
             style={{ border: 0 }}
             width="100%"
             height="600"
