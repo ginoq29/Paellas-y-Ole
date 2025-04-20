@@ -16,6 +16,17 @@ export default function CalendarSection() {
             title="Calendario de reservas"
           ></iframe>
         </div>
+
+        {/* Leyenda visual */}
+        <div className="max-w-md mx-auto mt-8 text-sm text-[#4a3728] bg-white bg-opacity-40 p-4 rounded shadow">
+          <p className="mb-2 font-semibold text-center">Leyenda de reservas</p>
+          <div className="space-y-2">
+            <p><span className="inline-block w-4 h-4 bg-green-500 rounded-sm mr-2"></span>Disponible</p>
+            <p><span className="inline-block w-4 h-4 bg-sky-400 rounded-sm mr-2"></span>Reservado – Almuerzo</p>
+            <p><span className="inline-block w-4 h-4 bg-yellow-400 rounded-sm mr-2"></span>Reservado – Cena</p>
+            <p><span className="inline-block w-4 h-4 bg-red-500 rounded-sm mr-2"></span>Día completo reservado</p>
+          </div>
+        </div>
       </div>
     </section>
   );
