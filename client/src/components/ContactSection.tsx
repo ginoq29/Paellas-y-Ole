@@ -86,7 +86,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p>info@paellasyole.es</p>
+                    <p>paellasyole.contacto@gmail.com</p>
                   </div>
                 </div>
 

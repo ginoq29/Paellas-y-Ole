@@ -66,7 +66,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-[#f8b400]" />{" "}
-                info@paellasyole.es
+        paellasyole.contacto@gmail.com
               </li>
             </ul>
           </div>
