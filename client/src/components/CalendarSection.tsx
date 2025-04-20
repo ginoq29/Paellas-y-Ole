@@ -7,7 +7,7 @@ export default function CalendarSection() {
         </h2>
         <div className="flex justify-center">
           <iframe
-            src="https://calendar.google.com/calendar/embed?src=a25ba77c320365ec12832810c996fde320aea3d5d06a9c3b3895e7651897cbc8%40group.calendar.google.com&ctz=America%2FLima"
+            src="https://calendar.google.com/calendar/embed?src=cc500dd9a8c083c1aea0cb161c7c0e8dbf0c94542cf71611269f12a4e1964bf0%40group.calendar.google.com&src=ce7579f572dd182dc9a00649163fe014b3e852357bc580354bb8c770e9eb49d7%40group.calendar.google.com&ctz=America%2FLima"
             style={{ border: 0 }}
             width="100%"
             height="600"
@@ -17,30 +17,24 @@ export default function CalendarSection() {
           ></iframe>
         </div>
 
-        {/* Leyenda visual actualizada */}
-       {/* Leyenda visual corregida */}
-<div className="max-w-md mx-auto mt-8 text-sm text-[#4a3728] bg-white bg-opacity-40 p-4 rounded shadow">
-  <p className="mb-2 font-semibold text-center">Leyenda de reservas</p>
-  <div className="space-y-2">
-    <p>
-      <span className="inline-block w-4 h-4 border border-gray-400 rounded-sm mr-2"></span>
-      Disponible
-    </p>
-    <p>
-      <span className="inline-block w-4 h-4 bg-green-500 rounded-sm mr-2"></span>
-      Reservado – Almuerzo
-    </p>
-    <p>
-      <span className="inline-block w-4 h-4 bg-yellow-400 rounded-sm mr-2"></span>
-      Reservado – Cena
-    </p>
-    <p>
-      <span className="inline-block w-4 h-4 bg-red-500 rounded-sm mr-2"></span>
-      Día completo reservado
-    </p>
-  </div>
-</div>
-
+        {/* Leyenda visual */}
+        <div className="max-w-md mx-auto mt-8 text-sm text-[#4a3728] bg-white bg-opacity-40 p-4 rounded shadow">
+          <p className="mb-2 font-semibold text-center">Leyenda de reservas</p>
+          <div className="space-y-2">
+            <p>
+              <span className="inline-block w-4 h-4 border border-gray-400 rounded-sm mr-2"></span>
+              Disponible
+            </p>
+            <p>
+              <span className="inline-block w-4 h-4 bg-green-500 rounded-sm mr-2"></span>
+              Reservado – Almuerzo
+            </p>
+            <p>
+              <span className="inline-block w-4 h-4 bg-yellow-400 rounded-sm mr-2"></span>
+              Reservado – Cena
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
