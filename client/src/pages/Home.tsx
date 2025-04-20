@@ -8,7 +8,7 @@ import DelightsSection from "@/components/DelightsSection";
 import ContactSection from "@/components/ContactSection";
 import CalendarSection from "@/components/CalendarSection";
 import Footer from "@/components/Footer";
-
+import PaymentSection from "@/components/PaymentSection";
 export default function Home() {
   return (
     <div className="font-['Montserrat'] bg-[#f9f5f0]">
@@ -21,6 +21,7 @@ export default function Home() {
       <DelightsSection />
       <ContactSection />
       <CalendarSection />
+      <PaymentSection />
       <Footer />
     </div>
   );
