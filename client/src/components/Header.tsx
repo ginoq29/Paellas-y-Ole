@@ -5,7 +5,7 @@ export default function Header() {
     <header className="relative bg-[#cb2d3e]">
       <div className="container mx-auto px-4 py-3 flex justify-end space-x-4">
         <a
-          href="https://facebook.com/tu-perfil"
+          href="https://facebook.com/paellas.y.ole"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
@@ -13,7 +13,7 @@ export default function Header() {
           <FaFacebookF className="text-white" />
         </a>
         <a
-          href="https://instagram.com/tu-perfil"
+          href="https://instagram.com/paellas.y.ole"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
@@ -21,7 +21,7 @@ export default function Header() {
           <FaInstagram className="text-white" />
         </a>
         <a
-          href="https://tiktok.com/tu-perfil"
+          href="https://tiktok.com/@paellas.y.ole"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
@@ -29,7 +29,7 @@ export default function Header() {
           <FaTiktok className="text-white" />
         </a>
         <a
-          href="https://wa.me/51952942616?text=Hola%20Paellas%20y%20Olé,%20quiero%20escribirles%20por%20WhatsApp"
+          href="https://wa.me/51952942616?text=Hola%20Paellas%20y%20Olé,%20quiero%20hacer%20una%20reserva"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
@@ -38,5 +38,5 @@ export default function Header() {
         </a>
       </div>
     </header>
-);
+  );
 }
