@@ -23,25 +23,33 @@ export default function Footer() {
             <p className="mt-4 font-semibold">Síguenos:</p>
             <div className="flex space-x-3 mt-2">
               <a
-                href="#"
+                href="https://facebook.com/paellas.y.ole"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full p-2 transition-colors"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://instagram.com/paellas.y.ole"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full p-2 transition-colors"
               >
                 <FaInstagram />
               </a>
               <a
-                href="#"
+                href="https://tiktok.com/@paellas.y.ole"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full p-2 transition-colors"
               >
                 <FaTiktok />
               </a>
               <a
                 href="https://wa.me/51952942616"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full p-2 transition-colors"
               >
                 <FaWhatsapp />
