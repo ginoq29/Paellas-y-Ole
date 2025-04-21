@@ -7,9 +7,9 @@ export default function ChefSection() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -17,8 +17,8 @@ export default function ChefSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 }
-    }
+      transition: { duration: 0.5 },
+    },
   };
 
   return (
@@ -36,18 +36,27 @@ export default function ChefSection() {
             className="w-full md:w-[300px] rounded-lg shadow-lg object-cover"
             variants={itemVariants}
           />
-          <motion.div className="md:w-1/2 text-[#4a3728]" variants={itemVariants}>
+          <motion.div
+            className="md:w-1/2 text-[#4a3728]"
+            variants={itemVariants}
+          >
             <h3 className="text-3xl font-bold font-['Playfair_Display'] mb-4">
               Sobre el Fundador
             </h3>
             <p className="mb-4">
-              Gino Alejandro Quevedo Goytizolo es chef profesional y creador de Paellas y Olé. Vivió más de 15 años en Europa, donde se sumergió en la cultura mediterránea y su gastronomía. Su conexión con la paella va más allá de la técnica: es emocional. Comprende su esencia como símbolo de encuentro, tradición y celebración.
+              Gino Alejandro Quevedo Goytizolo es chef profesional y creador de
+              Paellas y Olé. Vivió más de 15 años en Europa, donde se sumergió
+              en la cultura mediterránea y su gastronomía. Su conexión con la
+              paella va más allá de la técnica: es emocional. Comprende su
+              esencia como símbolo de encuentro, tradición y celebración.
             </p>
             <p className="mb-4">
-              Desde su regreso al Perú, lleva a cada evento la experiencia de compartir una paella como se vive en una mesa mediterránea: sin artificios, con respeto por el producto y la pasión de quien cocina para unir, no solo para alimentar. Su misión es clara: brindar un servicio impecable que conecte culturas, despierte recuerdos y transforme cada reunión en un momento inolvidable.
-            </p>
-            <p className="mb-4">
-              Porque una buena paella no se come solo… se comparte.
+              Desde su regreso al Perú, lleva a cada evento la experiencia de
+              compartir una paella como se vive en una mesa mediterránea: sin
+              artificios, con respeto por el producto y la pasión de quien
+              cocina para unir, no solo para alimentar. Su misión es clara:
+              brindar un servicio impecable que conecte culturas, despierte
+              recuerdos y transforme cada reunión en un momento inolvidable.
             </p>
           </motion.div>
         </motion.div>
