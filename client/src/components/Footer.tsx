@@ -64,10 +64,10 @@ export default function Footer() {
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2 text-[#f8b400]" /> +51 952 942 616
               </li>
-              <li className="flex items-center">
-                <FaEnvelope className="mr-2 text-[#f8b400]" />{" "}
-        paellasyole.contacto@gmail.com
-              </li>
+              <li className="flex items-center break-all">
+  <FaEnvelope className="mr-2 text-[#f8b400]" /> paellasyole.contacto@gmail.com
+</li>
+
             </ul>
           </div>
 
