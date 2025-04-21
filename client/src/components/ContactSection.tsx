@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef } from "react"; 
 import { motion, useInView } from "framer-motion";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
@@ -86,7 +86,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p>paellasyole.contacto@gmail.com</p>
+                    <p className="break-all">paellasyole.contacto@gmail.com</p>
                   </div>
                 </div>
 
