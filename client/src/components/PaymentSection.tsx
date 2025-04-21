@@ -14,7 +14,9 @@ export default function PaymentSection() {
               alt="Código QR de Yape"
               className="mx-auto w-32 h-32 mb-3 rounded shadow"
             />
-            <p>Yape al <strong>+51 952 942 616</strong></p>
+            <p>
+              Yape al <strong>+51 952 942 616</strong>
+            </p>
           </div>
 
           {/* Transferencia bancaria */}
@@ -37,15 +39,21 @@ export default function PaymentSection() {
               alt="Pago en efectivo"
               className="mx-auto w-12 h-12 mb-3"
             />
-            <p>También aceptamos pago en efectivo<br />el día del evento</p>
+            <p>
+              También aceptamos pago en efectivo
+              <br />
+              el día del evento
+            </p>
           </div>
         </div>
 
         <div className="max-w-xl mx-auto mt-10 text-center bg-[#f9f5f0] p-4 rounded shadow text-sm">
           <p className="font-semibold">Política de pagos</p>
           <p>
-            Todos los servicios requieren un <strong>50% de adelanto</strong> para confirmar la reserva. El
-            <strong>50% restante</strong> se debe abonar <strong>antes de iniciar el evento</strong>.
+            Todos los servicios requieren un <strong>50% de adelanto</strong>{" "}
+            para confirmar la reserva. El
+            <strong> 50% restante</strong> se debe abonar{" "}
+            <strong>antes de iniciar el evento</strong>.
           </p>
         </div>
       </div>
