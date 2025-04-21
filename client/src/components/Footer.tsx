@@ -23,13 +23,14 @@ export default function Footer() {
             <p className="mt-4 font-semibold">Síguenos:</p>
             <div className="flex space-x-3 mt-2">
               <a
-                href="https://facebook.com/paellas.y.ole"
+                href="https://facebook.com/paellasyole.peru"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full p-2 transition-colors"
               >
                 <FaFacebookF />
               </a>
+
               <a
                 href="https://instagram.com/paellas.y.ole"
                 target="_blank"
@@ -65,9 +66,9 @@ export default function Footer() {
                 <FaPhoneAlt className="mr-2 text-[#f8b400]" /> +51 952 942 616
               </li>
               <li className="flex items-center break-all">
-  <FaEnvelope className="mr-2 text-[#f8b400]" /> paellasyole.contacto@gmail.com
-</li>
-
+                <FaEnvelope className="mr-2 text-[#f8b400]" />{" "}
+                paellasyole.contacto@gmail.com
+              </li>
             </ul>
           </div>
 

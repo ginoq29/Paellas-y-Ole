@@ -5,13 +5,14 @@ export default function Header() {
     <header className="relative bg-[#cb2d3e]">
       <div className="container mx-auto px-4 py-3 flex justify-end space-x-4">
         <a
-          href="https://facebook.com/paellas.y.ole"
+          href="https://facebook.com/paellasyole.peru"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center transition-colors"
         >
           <FaFacebookF className="text-white" />
         </a>
+
         <a
           href="https://instagram.com/paellas.y.ole"
           target="_blank"
