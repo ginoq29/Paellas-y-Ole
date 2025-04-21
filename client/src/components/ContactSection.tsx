@@ -1,6 +1,11 @@
-import { useRef } from "react"; 
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 export default function ContactSection() {
   const sectionRef = useRef(null);
@@ -11,9 +16,9 @@ export default function ContactSection() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -21,20 +26,24 @@ export default function ContactSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 }
-    }
+      transition: { duration: 0.5 },
+    },
   };
 
   const pulseAnimation: any = {
-    initial: { boxShadow: '0 0 0 0 rgba(37, 211, 102, 0.7)' },
+    initial: { boxShadow: "0 0 0 0 rgba(37, 211, 102, 0.7)" },
     animate: {
-      boxShadow: ['0 0 0 0 rgba(37, 211, 102, 0.7)', '0 0 0 10px rgba(37, 211, 102, 0)', '0 0 0 0 rgba(37, 211, 102, 0)'],
+      boxShadow: [
+        "0 0 0 0 rgba(37, 211, 102, 0.7)",
+        "0 0 0 10px rgba(37, 211, 102, 0)",
+        "0 0 0 0 rgba(37, 211, 102, 0)",
+      ],
       transition: {
         duration: 2,
         repeat: Infinity,
-        repeatType: "loop"
-      }
-    }
+        repeatType: "loop",
+      },
+    },
   };
 
   return (
@@ -62,11 +71,14 @@ export default function ContactSection() {
             <div className="grid md:grid-cols-2 gap-6 mb-10">
               {/* Columna izquierda - mensaje */}
               <div className="bg-[#f9f5f0] p-8 rounded-lg shadow-sm">
-  <p className="text-lg md:text-xl text-[#4a3728] leading-relaxed font-['Playfair_Display'] italic">
-    ¿Listo para disfrutar de la auténtica paella española? <br />
-    <span className="block mt-2">Contáctanos y te ayudaremos a crear una experiencia inolvidable para tu evento.</span>
-  </p>
-</div>
+                <p className="text-lg md:text-xl text-[#4a3728] leading-relaxed font-['Playfair_Display'] italic">
+                  ¿Listo para disfrutar de la auténtica paella española? <br />
+                  <span className="block mt-2">
+                    Contáctanos y te ayudaremos a crear una experiencia
+                    inolvidable para tu evento.
+                  </span>
+                </p>
+              </div>
 
               {/* Columna derecha - datos de contacto */}
               <div className="bg-[#f9f5f0] p-6 rounded-lg shadow-sm space-y-4">
@@ -105,7 +117,9 @@ export default function ContactSection() {
             {/* Botón de WhatsApp y mensaje final */}
             <div className="text-center">
               <motion.a
-                href="https://wa.me/51952942616?text=Hola%20Paellas%20y%20Olé,%20estoy%20interesado%20en%20su%20servicio%20de%20paellas%20para%20un%20evento."
+                href="https://wa.me/51952942616?text=Hola%20Paellas%20y%20Ol%C3%A9%2C%20estoy%20interesado%20en%20su%20servicio%20de%20paellas.%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
                 initial="initial"
                 animate="animate"
@@ -115,7 +129,9 @@ export default function ContactSection() {
               </motion.a>
 
               <div className="mt-6">
-                <h3 className="text-3xl font-['Dancing_Script'] text-[#cb2d3e] mb-2">¡Te esperamos!</h3>
+                <h3 className="text-3xl font-['Dancing_Script'] text-[#cb2d3e] mb-2">
+                  ¡Te esperamos!
+                </h3>
               </div>
             </div>
           </motion.div>
