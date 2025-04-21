@@ -91,11 +91,13 @@ export default function PaellasSection() {
                 <p className="text-gray-600 mb-4">{paella.description}</p>
 
                 <div className="mt-auto text-[#cb2d3e] font-semibold">
-                  <span>{paella.size}</span>
-                  {!paella.evento && (
-                    <span className="block">{paella.price} por persona</span>
-                  )}
-                </div>
+  <span>{paella.size}</span>
+  {!paella.evento && (
+    <span className="block italic text-sm text-gray-600">Contáctanos para cotizar</span>
+  )}
+</div>
+
+
               </div>
             </motion.div>
           ))}
